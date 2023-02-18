@@ -1,12 +1,24 @@
-# Getting Started with Create React App
+## 題目規定
+1. 使用指定套件 Bootstrap -**使用React+React-BootStrap Grid作RWD**
+2. 數據的部分，須能隨機產生
+3. 利下拉選單只要單一項目就好 -**目前有作編號搜尋功能**
+4. 搜尋格子不用有功能 
+5. 數據資料需以 Json 格式表示(欄位你可自己定義)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 目前專案畫面  (手機版左邊操作欄直接收到上方折疊選單)
+<img width="502" alt="雙肩後測題-1" src="https://user-images.githubusercontent.com/71853581/219854228-b52e91b7-910f-42c8-bd23-0a058fe4ca8a.png">  
+<img width="221" alt="雙肩後測題-2" src="https://user-images.githubusercontent.com/71853581/219854234-8234e9f1-d586-43c8-af6e-0710eb64147b.png">
 
 ## Available Scripts
 
-In the project directory, you can run:
+下載完這個專案到本地端後，您可以利用以下npm指令進行啟動
+### `npm install`
+
+安裝本專案package.json相關套件
 
 ### `npm start`
+
+啟動React專案和本地端伺服器 port3000，即可打開主頁
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -14,57 +26,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
