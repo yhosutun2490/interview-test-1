@@ -1,4 +1,15 @@
 .main_container {
-  height: 92vh;
+  padding-top: 4%;
+  height: calc(100vh - 60px);
   background-color: rgb(222, 217, 217);
 }
+.sidebar {
+  @media screen and (max-width: 575px) {
+    display: none; 
+  }
+}
+.table_title {
+  font-size: 1.8rem;
+  padding-left: 30px;
+}
+

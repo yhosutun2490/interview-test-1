@@ -1,40 +1,37 @@
 import Table from "react-bootstrap/Table";
 import styles from "./UserTable.module.scss";
+import TableRow from "./TableRow";
 
-function UserTable() {
+function UserTable(props) {
   return (
-    <div>
-      <div></div>
-      <Table striped bordered hover>
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Username</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <td>2</td>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <td>3</td>
-            <td colSpan={2}>Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </Table>
-    </div>
+    <>
+      <div>
+        <div className={styles.table_title}>系統管理&rarr;帳戶管理</div>
+        <Table responsive striped bordered hover>
+          <thead className={styles.thead}>
+            <tr>
+              <th>帳戶編號</th>
+              <th>帳戶名稱</th>
+              <th>姓名</th>
+              <th>註冊信箱</th>
+              <th>有效時間</th>
+            </tr>
+          </thead>
+          <tbody>
+            {props.userData.map((item) => (
+              <TableRow
+                key={item.userId}
+                id={item.userId}
+                account={item.account}
+                name={item.userName}
+                email={item.email}
+                valid={item.valid}
+              />
+            ))}
+          </tbody>
+        </Table>
+      </div>
+    </>
   );
 }
 

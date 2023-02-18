@@ -1,0 +1,34 @@
+.collapse_navbar {
+  @media screen and (min-width: 576px) {
+    display: none;
+  }
+}
+.icon_group {
+  display: flex;
+}
+.icon_group > * {
+  margin-right: 10px;
+}
+.icon_notify {
+  position: relative;
+}
+.icon_pill {
+  width: 15px;
+  height: 15px;
+  border-radius: 100px;
+  text-align: center;
+  line-height: 15px;
+  padding: 2px;
+  color: white;
+  font-weight: 500;
+  background-color: red;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sidebar_modal {
+  display: block;
+  @media screen and (min-width: 576px) {
+    display: none; 
+  }
+}
